@@ -28,3 +28,14 @@ button {
     font-size: 18px;
     text-align: center;
 }
+
+.inline {
+    display: flex;
+    border: 2px red;
+    margin: auto;
+}
+
+.block {
+    display: block;
+    margin: 50px;
+}
