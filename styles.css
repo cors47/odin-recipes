@@ -29,13 +29,16 @@ button {
     text-align: center;
 }
 
-.inline {
+section {
     display: flex;
-    border: 2px red;
-    margin: auto;
+    align-items: center;
+    vertical-align: middle;
 }
 
-.block {
-    display: block;
-    margin: 50px;
+img {
+    margin: 40px;
+}
+
+.flex-container div {
+    flex: 1;
 }
